@@ -1,0 +1,373 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: fuente;
+  src: url("fonts/Q.ttf");
+}
+
+#main {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+}
+
+#bg {
+  width: 50vw;
+  height: 100vh;
+  opacity: 1;
+}
+
+#imagenbglogin {
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+  z-index: 1;
+}
+
+#aside {
+  width: 50vw;
+  height: 100vh;
+  background-color: #fff;
+  position: relative;
+  bottom: 100%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+#boxes {
+  position: absolute;
+  top: 35%;
+  left: 47%;
+  margin: -25px 0 0 -25px; /* aplicar a top y al margen izquierdo un valor negativo para completar el centrado del elemento hijo */
+}
+
+#boxerror {
+  background-color: #f27481;
+  border-radius: 30px;
+  position: absolute;
+  top: -220px;
+  right: 50px;
+  width: 240px;
+  height: 40px;
+  text-align: center;
+}
+
+#texto_error_1 {
+  position: relative;
+  top: -5px;
+  left: 0px;
+  font-family: fuente;
+  font-size: 9pt;
+  color: #fff;
+}
+
+#error_icon {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 5px;
+  left: -5px;
+}
+
+/* box 1 */
+#box1 {
+  width: 240px;
+  height: 30px;
+  background-color: transparent;
+  position: relative;
+  bottom: 160px;
+  right: 50px;
+  text-align: center;
+}
+
+#texto_login_1 {
+  font-family: fuente;
+  font-size: 22pt;
+}
+
+/* box 2 */
+
+#box2 {
+  width: 210px;
+  height: 45px;
+  background-color: transparent;
+  position: relative;
+  bottom: 120px;
+  right: 40px;
+}
+
+#google_login {
+  padding: 15px 0px;
+  padding-left: 30px;
+  border-radius: 40px;
+  background-color: rgb(149, 21, 153);
+  color: #fff;
+  font-family: fuente;
+  border: none;
+  cursor: pointer;
+  width: 210px;
+  position: relative;
+  bottom: 30px;
+  font-size: 10pt;
+}
+
+#google_login:hover {
+  background-color: #c26cd1;
+  transition: 0.3s all;
+}
+
+#imagengoogle {
+  width: 25px;
+  height: 25px;
+  position: relative;
+  left: 15px;
+  top: 5px;
+  z-index: 1;
+}
+
+/* box 3 */
+
+#box3 {
+  width: 150px;
+  height: 30px;
+  background-color: transparent;
+  position: relative;
+  bottom: 100px;
+  right: 10px;
+}
+
+#aside_line_1 {
+  width: 60px;
+  height: 1px;
+  position: relative;
+  background-color: #000;
+  left: 0px;
+}
+
+#aside_circle_1 {
+  width: 10px;
+  height: 10px;
+  position: relative;
+  background-color: transparent;
+  left: 70px;
+  bottom: 5px;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+
+#aside_line_2 {
+  width: 60px;
+  height: 1px;
+  position: relative;
+  background-color: #000;
+  left: 90px;
+  bottom: 11px;
+}
+
+/* box 4 */
+
+#box4 {
+  width: 210px;
+  height: 60px;
+  background-color: transparent;
+  position: relative;
+  bottom: 100px;
+  right: 40px;
+}
+
+#texto_input_1 {
+  position: relative;
+  font-family: fuente;
+  left: 80px;
+}
+
+#input_text_1 {
+  position: relative;
+  right: 0px;
+  top: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  font-family: fuente;
+  width: 210px;
+  font-size: 8pt;
+}
+
+/* box 5 */
+
+#box5 {
+  width: 210px;
+  height: 60px;
+  background-color: transparent;
+  position: relative;
+  bottom: 90px;
+  right: 40px;
+}
+
+#texto_input_2 {
+  position: relative;
+  font-family: fuente;
+  left: 80px;
+  top: 0px;
+}
+
+#input_text_2 {
+  position: relative;
+  right: 0px;
+  top: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  font-family: fuente;
+  width: 210px;
+  font-size: 8pt;
+}
+
+/* box 6 */
+
+#box6 {
+  width: 210px;
+  height: 60px;
+  background-color: transparent;
+  position: relative;
+  bottom: 80px;
+  right: 40px;
+}
+
+#texto_input_3 {
+  position: relative;
+  font-family: fuente;
+  left: 65px;
+  top: px;
+}
+
+#input_text_3 {
+  position: relative;
+  right: 0px;
+  top: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  font-family: fuente;
+  width: 210px;
+  font-size: 8pt;
+}
+
+/* box 7 */
+
+#box7 {
+  width: 210px;
+  height: 60px;
+  background-color: transparent;
+  position: relative;
+  bottom: 70px;
+  right: 40px;
+}
+
+#texto_input_4 {
+  position: relative;
+  font-family: fuente;
+  left: 35px;
+  top: 0px;
+}
+
+#input_text_4 {
+  position: relative;
+  right: 0px;
+  top: 5px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  font-family: fuente;
+  width: 210px;
+  font-size: 8pt;
+}
+
+/* box 8 */
+
+#box8 {
+  width: 210px;
+  height: 40px;
+  background-color: transparent;
+  position: relative;
+  bottom: 40px;
+  right: 40px;
+}
+
+#botonlogin {
+  padding: 10px 0px;
+  border-radius: 40px;
+  background-color: rgb(149, 21, 153);
+  color: #fff;
+  font-family: fuente;
+  font-size: 13pt;
+  border: none;
+  cursor: pointer;
+  width: 210px;
+  position: relative;
+}
+
+#botonlogin:hover {
+  background-color: #c26cd1;
+  transition: 0.3s all;
+}
+
+/* box 9 */
+
+#box9 {
+  width: 230px;
+  height: 50px;
+  background-color: transparent;
+  position: relative;
+  bottom: 25px;
+  right: 50px;
+  text-align: center;
+}
+
+#textoa1 {
+  font-family: fuente;
+  font-size: 12pt;
+}
+
+#textoa1 a {
+  text-decoration: none;
+  color: rgb(149, 21, 153);
+}
+
+/* box 10 */
+
+#box10 {
+  width: 220px;
+  height: 70px;
+  background-color: transparent;
+  position: relative;
+  bottom: 10px;
+  right: 45px;
+}
+
+#foo_img {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 0px;
+  left: 10px;
+}
+
+#textologo {
+  color: #000;
+  font-family: fuente;
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+  font-size: 30pt;
+}
+
+#box10 a {
+  text-decoration: none;
+}
